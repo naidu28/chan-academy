@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ChanAcademy - Learn Parkour Today! </title>
+  <link href="https://fonts.googleapis.com/css?family=Dosis:300,400,500" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Varela" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Oswald:200,300" rel="stylesheet">
+
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+
+  <script src="script.js"></script>
+  <link href="styles.css" rel="stylesheet" />
+</head>
+<body>
+  <div id="page" class="row">
+    <div id="navbar" class="col">
+      <div id="logo" class="row center"><a href="home.html"><img src="logo.png" /></a></div>
+      <div id="navbar-list" class="col">
+        <div id="search" class="navbar-option col">
+          <i id="search-icon" class="fa fa-search" aria-hidden="true"></i>
+          <input id="search-bar" type="text" placeholder="search for topics" />
+          <i id="remove-search-text" class="fa fa-times" aria-hidden="true" onclick="removeSearchText()"></i>
+        </div>
+        <div class="filler"></div>
+        <a class="navbar-option" href="wiki.html"><div class="row center">wiki</div></a>
+        <a class="navbar-option" href="about.html"><div class="row center">about</div></a>
+        <a class="navbar-option" href="help.html"><div class="row center">?</div></a>
+      </div>
+    </div>
+    <div class="col">
+      <div id="sidebar">
+        <div class="sidebar-banner row center">
+          <div class="header">BASICS</div>
+          <div class="sub-header">Instructor: <a href="roony-chan.html"><em>Roony Chan</em></a></div>
+        </div>
+        <div class="sidebar-list">
+          <div class="sidebar-list-option row center active" onclick="trigger(this, 'safety-vault')">
+            <div class="header option">Safety Vault/Roll</div>
+            <div class="sub-header option">3543 views</div>
+          </div>
+          <div class="sidebar-list-option row center" onclick="trigger(this, 'precision-jumping')">
+            <div class="header option">Precision Jumping</div>
+            <div class="sub-header option">632 views</div>
+          </div>
+          <div class="sidebar-list-option row center" onclick="trigger(this, 'wall-climb')">
+            <div class="header option">Wall Climb</div>
+            <div class="sub-header option">632 views</div>
+          </div>
+          <div class="sidebar-list-option row center" onclick="trigger(this, 'speed-vault')">
+            <div class="header option">Speed Vault</div>
+            <div class="sub-header option">632 views</div>
+          </div>
+          <div class="sidebar-list-option row center" onclick="trigger(this, 'counter-balance')">
+            <div class="header option">Counter Balance</div>
+            <div class="sub-header option">632 views</div>
+          </div>
+          <div class="sidebar-list-option row center" onclick="trigger(this, 'turn-vault')">
+            <div class="header option">Turn Vault</div>
+            <div class="sub-header option">7108 views</div>
+          </div>
+        </div>
+      </div>
+      <div id="content" class="row">
+        <div id="video-viewer" class="row center">
+          <iframe class="youtube-vid" src="https://www.youtube.com/embed/PveFI7Q4j_M" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div id="video-details" class="row">
+          <div class="video-name row">Safety Vault/Roll</div>
+          <div class="metadata col center">
+            <div class="difficulty col">
+              <div class="diff d" style="background-color: #CC3300;"></div>
+              <div class="diff d"></div>
+              <div class="diff d"></div>
+              <div class="diff d"></div>
+              <div class="diff d"></div>
+              <div class="diff-rating">[ Beginner ]</div>
+            </div>
+            <div class="view-total">7043 views</div>
+          </div>
+          <div class="tags"><span id="tags-header">tags: </span><span id="tags-list">safety, vault, roll</span></div>
+          <div class="video-summary row center">The safety vault is the most basic of vaulting maneuvers. Facing forward, you use your hands to pull yourself up and climb on the obstacle before jumping off. The roll is a basic move used to safely fall or drop from a higher height, in which the traceur's momentum is redirected forward rather than down. The impact is redistributed from the legs over the rest of the body. Head must be tucked down to prevent neck injuries, while rolling from shoulder to back.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,115 @@
+.splash {
+  position: relative;
+  /*top: 60px;*/
+  min-height: 500px;
+  width: 100%;
+}
+
+#home-banner {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  background-image: url(banner.jpg);
+  background-size: cover;
+}
+
+.shader {
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .74);
+}
+
+.splash-content {
+  /*background-color: rgba(80, 20, 0, .7);*/
+  /*background-color: rgba(204, 51, 0, 0.7);*/
+  /*border-color: rgba(204, 51, 0, 1);
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 2px;*/
+  position: absolute;
+  margin-top: 50px;
+  z-index: 3;
+  width: 550px;
+  height: 250px;
+}
+
+.splash-content > p {
+  height: 50px;
+}
+
+.splash-content > a {
+  width: 200px;
+  height: 50px;
+}
+
+#home-start-button {
+  font-family: 'Dosis', sans-serif;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+#home-start-button:hover {
+  background-color: #CE4214;
+}
+
+#home-start-button > div {
+  text-align: center;
+  vertical-align; middle;
+  height: 22px;
+  font-size: 18px;
+  color: white;
+}
+
+#home-start-button > i {
+  margin-right: 15px;
+  font-size: 32px;
+  color: white;
+  width: 32px;
+  height: 32px;
+}
+
+.about-text {
+  padding-top: 0px;
+  width: 92%;
+  height: 400px;
+  line-height: 30px;
+  font-family: 'Dosis', sans-serif;
+  color: #515151;
+  font-weight: 200;
+  font-size: 18px;
+  /*letter-spacing: 0px;*/
+}
+
+.about-text > p.sub-header {
+  height: 50px;
+  font-size: 30px;
+  line-height: 30px;
+  vertical-align: middle;
+  font-family: 'Varela', sans-serif;
+  color: #CC3300;
+
+  margin-top: 40px;
+  margin-bottom: 10px;
+  text-align: center;
+  /*letter-spacing:*/
+}
+
+#text-1 {
+  height: 85px;
+  text-align: center;
+}
+
+#text-2 {
+  height: 85px;
+  text-align: center;
+}
+
+#text-3 {
+  height: 85px;
+  text-align: center;
+}
